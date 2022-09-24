@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linl rel="stylesheet" href="giahang.css"></linl>
+    <link rel="stylesheet" href="giohang.html">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="../styles/base.css" rel="stylesheet" type="text/css" media="screen" />
+	<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js"></script>
+	<script type="text/javascript" src="../scripts/jquery.pikachoose.js"></script>
+	<script type="text/javascript">
+				$(document).ready(function() {
+				$("#pikame").PikaChoose();	});
+	</script>
+    <title></title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+              <ul id="nav">
+                <li><a href="java/index.html" class="current">Home</a></li>
+                <li><a href="java/about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">login</a></li>
+              
+              </ul>
+            </nav>
+            
+        </header>    
+    </div>
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-top-wrap">
+                <div class="delivery-top-delivery delivery-top-item">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="delivery-top-adress delivery-top-item">
+                    <i class="fas fa-map-market-a"></i>
+                </div>
+                <div class="delivery-top-payment delivery-top-item">
+                    <i class="fas fa-money-check-alt"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="delivery-content">
+                <div class="delivery-content-left">
+                    <p>Vui lòng chọn địa chỉ  giao hàng</p>
+                    <div class="delivery-content-left-dangnhap row">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <p>Đăng nhập (nếu bạn đã có tài khoản)</p>
+                    </div>
+                    <div class="delivery-content-left-khackle row">
+                        <input checked name="loaikhach" type="radio">
+                        <p> <span style="font-weight: bold;">khách lẻ</span>(Nếu bạn không muốn lưu lại thông tin)</p>
+                    </div>
+                    <div class="delivery-content-left-dangky row">
+                        <input checked name="loaikhach" type="radio">
+                        <p> <span style="font-weight: bold;">đăng ký</span>(Tạo mới tài  khoản với thông tin bên dưới)</p>
+                    </div>
+                    <div class="deliver-content-left-input-top row">
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Họ tên <span style="color:red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Điện thoại <span style="color:red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Tỉnh/Tp <span style="color:red;">*</span></label>
+                            <input type="text">
+                        </div>
+                        <div class="delivery-content-left-input-top-item">
+                            <label for="">Quận/Huyện <span style="color:red;">*</span></label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="delivẻ-content-left-input-bottom">
+                        <label for="">Địa chỉ<span style="color:red;">*</span></label>
+                        <input type="text">
+                    </div>
+
+                    <div class="deliver-content-left-button row">
+                        <a href="giohang.html"><span>&#8592;</span><p>Quay lại giỏ hàng</p></a>
+                        <button ><p style="font-weight: bold">Thanh toán  vào giao  hàng</p></button>
+                    </div>
+                </div>
+                <div class="delivery-content-right">
+                    <table>
+                        <tr>
+                            <th>Tên sản  phẩm</th>
+                            <th>Giảm giá</th>
+                            <th>Số  lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td> Coffee trứng<td>
+                            <td> -20%</td>
+                            <td> 1 </td>
+                            <td>35.000<sup>đ</sup> </td>
+                        </tr>
+
+                        <tr>
+                            <td> Coffee đen<td>
+                                <td> -20%</td>
+                                <td> 1 </td>
+                                <td>35.000<sup>đ</sup> </td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold" colspan="3">Tổng</td>
+                            <td style="font-weight: bold"><p>35.000<sup>đ</sup></p></td> 
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold" colspan="3">Thuế VAT</td>
+                            <td style="font-weight: bold"><p>15.000<sup>đ</sup></p></td> 
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold" colspan="3">Tổng tiền  hàng</td>
+                            <td style="font-weight: bold"><p>10.000<sup>đ</sup></p></td> 
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
